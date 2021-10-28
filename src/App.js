@@ -1,23 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import NavBar from './componets/NavBar/Nav';
+import Cards from './componets/card/Cards'
+import styled from "styled-components";
+
+
+
+const Div = styled.div`
+  display: flex;
+  flex-direction: row;
+  background-color:rgba(129,170,180, 0.7);
+  background:cover;
+  @media (max-width: 800px) {
+    width: 100%;
+    height:1000px;
+    flex-direction: column-reverse;
+  }
+`;
 
 function App() {
+ 
+  
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='app'>
+    <Div className="App">
+      
+      <NavBar />
+      <Cards/>
+      
+    </Div>
     </div>
   );
 }
