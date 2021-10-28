@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+APP Clima
 El reto es desarrollar una página web responsive y con un diseño proporcionado por Evo-ion donde conectándose a una API del clima se muestran los datos ingresados en pantalla. **Para esta tarea tendrá un máximo de 24 horas. . El tiempo corre desde el momento que la prueba es enviad.**
 
 - **Framework**: React o Next JS (mejor si se realiza bajo Next JS).
